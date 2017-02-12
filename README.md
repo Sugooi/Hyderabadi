@@ -1,7 +1,7 @@
 Hyderadi App
 ===================================
 
-This app displays lists of vocabulary words for the user to learn the Hyderabi Urdu language.
+This app is an attempt to make people familliar with Hyderabads Dialect.
 
 Pre-requisites
 --------------
