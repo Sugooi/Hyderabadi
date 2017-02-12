@@ -1,7 +1,7 @@
 Hyderadi App
 ===================================
 
-This app is an attempt to make people familliar with Hyderabads Dialect.
+This app is an attempt to make people familiar with Hyderabad's Dialect.
 
 Pre-requisites
 --------------
