@@ -36,10 +36,11 @@ public class PlacesAct extends AppCompatActivity {
 
         listView.setAdapter(itemsAdapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+      /*  listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Word word = words.get(i);
+
                 String myLatitude=word.getLatitue();
                 String myLongitude=word.getLongitude();
                 String labelLocation=word.getHydTranslation();
@@ -47,7 +48,7 @@ public class PlacesAct extends AppCompatActivity {
                 intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);
             }
-        });
+        });*/
 
     }
 }
