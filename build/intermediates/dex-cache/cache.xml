@@ -1,3 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05d7cea481ebc841de84b13ab11db8cb133d7c20">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ce1ed5d0f993b245a7a53764c839825ee713012b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3a8670a162989540dd7698bd9e35f426525f7460">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1f1a05ab9e454efd59a5712b64fcf43eee763997\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_4371ccd635ccfb522b621adbab08e55a7d1ccfd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_c69e2b213afdbd1c0e1f0342f324c47689ce5f91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_8bed7b51595accfbf33966f17fb5bc650294e23b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_68059eaa66791e71c52e09a4b6752ef21b4ae7da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_85f3e60f03b0540164e4f991d56ece859fbdc222\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_53c1dfb406c31a4ea867dc2cbb0c7154d0cc7059\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_07c17cc5b0e88dd6296c17d25685466ea5e23f97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adil prog\hyderabadi\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\adil prog\hyderabadi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_13e1bda2c7ed32d0548d689297361bf07f354450\classes.dex" />
+    </item>
+
+</items>

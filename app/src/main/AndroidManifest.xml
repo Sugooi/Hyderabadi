@@ -41,7 +41,8 @@
         <activity
             android:name=".PhrasesActivity"
             android:label="Phrases" />
-        <activity android:name=".PlacesAct"></activity>
+        <activity android:name=".PlacesAct"
+            android:label="Places"/>
     </application>
 
 </manifest>

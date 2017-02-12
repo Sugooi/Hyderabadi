@@ -1,7 +1,11 @@
 package com.example.android.miwok;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.lang.reflect.Array;
@@ -31,6 +35,18 @@ public class PlacesAct extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
 
         listView.setAdapter(itemsAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String myLatitude="17.3616";
+                String myLongitude="78.4747";
+                String labelLocation="Charminar";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:<" + myLatitude  + ">,<" + myLongitude + ">?q=<" + myLatitude  + ">,<" + myLongitude + ">(" + labelLocation + ")"));
+                intent.setPackage("com.google.android.apps.maps");
+                startActivity(intent);
+            }
+        });
 
     }
 }
