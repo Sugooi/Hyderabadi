@@ -38,13 +38,14 @@ public class Word {
         image=res;
         colour=res1;}
 
-    public Word(String D,String M,String res1,int located,String latitude,String longitude)
+    public Word(String D,String M,String res1,int located,String latitude,String longitude,int res)
     {defaultTranslation=D;
         hydTranslation=M;
 
         colour=res1;
 
         locate=located;
+        image=res;
 
         this.latitude=latitude;
         this.longitude=longitude;

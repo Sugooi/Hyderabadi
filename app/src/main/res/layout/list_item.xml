@@ -60,7 +60,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:id="@+id/loc"
-
+            android:layout_marginTop="15dp"
             />
 </LinearLayout>
 
