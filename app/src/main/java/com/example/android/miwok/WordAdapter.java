@@ -67,6 +67,8 @@ public class WordAdapter extends ArrayAdapter<Word> {
         else
         {locationView.setVisibility(View.GONE);}
 
+
+
         return listItemView;
     }
 }

@@ -11,6 +11,8 @@ public class Word {
     private int locate=has;
     private static final int has=-1;
     private static final String has1="hell";
+    private String longitude;
+    private String latitude;
 
 
    public Word(String D,String M)
@@ -36,13 +38,16 @@ public class Word {
         image=res;
         colour=res1;}
 
-    public Word(String D,String M,String res1,int located)
+    public Word(String D,String M,String res1,int located,String latitude,String longitude)
     {defaultTranslation=D;
         hydTranslation=M;
 
         colour=res1;
 
         locate=located;
+
+        this.latitude=latitude;
+        this.longitude=longitude;
     }
 
     public String getdefaultTranslation(){
@@ -59,6 +64,13 @@ public class Word {
     public String getRes_id1(){return colour;}
 
     public int getLocate(){return  locate;}
+
+    public String getLatitue()
+    {return latitude;}
+
+    public String getLongitude()
+    {return  longitude;}
+
 
 
     public boolean ithasimage()
