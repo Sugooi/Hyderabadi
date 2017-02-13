@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.miwok">
+    package="com.adil.android.Hyderabadi">
 
     <application
         android:allowBackup="true"
@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.adil.android.Hyderabadi.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,18 +30,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FamilyActivity"
+            android:name="com.adil.android.Hyderabadi.FamilyActivity"
             android:label="@string/category_family" />
         <activity
-            android:name=".NumbersActivity"
+            android:name="com.adil.android.Hyderabadi.NumbersActivity"
             android:label="@string/category_numbers" />
         <activity
-            android:name=".ColorsActivity"
+            android:name="com.adil.android.Hyderabadi.ColorsActivity"
             android:label="Colors" />
         <activity
-            android:name=".PhrasesActivity"
+            android:name="com.adil.android.Hyderabadi.PhrasesActivity"
             android:label="Phrases" />
-        <activity android:name=".PlacesAct"
+        <activity android:name="com.adil.android.Hyderabadi.PlacesAct"
             android:label="Places"/>
     </application>
 
